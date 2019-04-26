@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('../../fonts/DINPro.eot');
+  src: local('fonts/DIN Pro'), local('fonts/DINPro'),
+  url('../../fonts/DINPro.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/DINPro.woff') format('woff'),
+  url('../../fonts/DINPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../fonts/Gilroy-Bold.woff');
+  src: local('fonts/Gilroy'), local('fonts/Gilroy'),
+  url('../../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/Gilroy-Bold.woff') format('woff'),
+  url('../../fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

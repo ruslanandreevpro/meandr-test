@@ -73,9 +73,9 @@ const webpackConfig = require("./webpack.config.js"),
 			watch: "./src/img/**/*_webp.{jpg,jpeg,png}"
 		},
 		fonts: {
-			src: "./src/fonts/**/*.{ttf,otf,woff,woff2}",
+			src: "./src/fonts/**/*.{ttf,otf,eot,woff,woff2}",
 			dist: "./dist/fonts/",
-			watch: "./src/fonts/**/*.{ttf,otf,woff,woff2}"
+			watch: "./src/fonts/**/*.{ttf,otf,eot,woff,woff2}"
 		},
 		favicons: {
 			src: "./src/img/favicon.{jpg,jpeg,png,gif}",
@@ -101,6 +101,7 @@ export const server = () => {
 	gulp.watch(paths.styles.watch, styles);
 	gulp.watch(paths.scripts.watch, scripts);
 	gulp.watch(paths.images.watch, images);
+	gulp.watch(paths.fonts.watch, fonts);
 	gulp.watch(paths.webp.watch, webpimages);
 };
 
