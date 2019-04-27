@@ -22,6 +22,10 @@
       div {
         position: relative;
 
+        p {
+          color: red;
+        }
+
         &:before {
           width: 64px;
           height: 64px;
@@ -67,6 +71,14 @@
 
         &::placeholder {
           color: rgba(255, 255, 255, 0.3);
+        }
+
+        &.valid {
+          border-bottom: 2px solid green;
+        }
+
+        &.invalid {
+          border-bottom: 2px solid red;
         }
       }
 
@@ -136,6 +148,18 @@
         text-transform: uppercase;
         color: #F47821;
         cursor: pointer;
+
+        &:disabled {
+          background-color: lightgray;
+          color: #222222;
+          cursor: auto;
+
+          &:hover {
+            background-color: lightgray;
+            color: #222222;
+            cursor: auto;
+          }
+        }
 
         &:hover {
           background-color: #f47821;
