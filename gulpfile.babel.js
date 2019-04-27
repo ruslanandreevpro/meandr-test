@@ -101,7 +101,6 @@ export const server = () => {
 	gulp.watch(paths.styles.watch, styles);
 	gulp.watch(paths.scripts.watch, scripts);
 	gulp.watch(paths.images.watch, images);
-	gulp.watch(paths.fonts.watch, fonts);
 	gulp.watch(paths.webp.watch, webpimages);
 };
 

@@ -1,10 +1,10 @@
 {
-	"name": "gulp-scss-starter",
-	"description": "Frontend development with pleasure",
-	"author": "Andrey Gorokhov",
+	"name": "meandr-test",
+	"description": "Test dev",
+	"author": "Ruslan Andreev",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/andreyalexeich/gulp-scss-starter.git"
+		"url": "https://github.com/ruslanandreevpro/meandr-test"
 	},
 	"license": "MIT",
 	"scripts": {

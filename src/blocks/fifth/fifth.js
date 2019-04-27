@@ -45,7 +45,6 @@ ProjectField.addEventListener('keyup', (event) => {
 });
 
 document.addEventListener('keyup', () => {
-    console.log(isValidName, isValidEmail, isValidPhone, isValidProject, formValid)
     formValid ? submitButton.disabled = false : submitButton.disabled = true
 })
 
