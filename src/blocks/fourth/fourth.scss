@@ -72,3 +72,39 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+
+  .fourth {
+    padding: 45px 0;
+
+    .title {
+
+      h3 {
+        font-size: 20px;
+      }
+    }
+
+    .content {
+
+      ul {
+        flex-wrap: wrap;
+
+        li {
+
+          &:nth-child(1) {
+            width: 90%;
+          }
+
+          &:nth-child(2) {
+            width: 90%;
+          }
+
+          &:nth-child(3) {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+}

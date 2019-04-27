@@ -42,3 +42,44 @@
     }
   }
 }
+
+@media screen and (max-width: 930px) {
+
+  .second {
+
+    .cards {
+      width: calc(100% - 30px);
+      margin: -30px auto 0;
+
+      .card {
+        width: 75%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .second {
+
+    .cards {
+      width: calc(100% - 30px);
+
+      .card {
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+        .card-content {
+
+          p {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}

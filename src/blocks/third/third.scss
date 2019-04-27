@@ -28,3 +28,21 @@
      }
   }
 }
+
+@media screen and (max-width: 480px) {
+
+  .third {
+    padding: 45px 0;
+
+    .container {
+      width: calc(100% - 30px);
+    }
+
+    .title {
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+}

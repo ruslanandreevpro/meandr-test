@@ -69,3 +69,18 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+
+  .first {
+    padding: 90px 0;
+
+    .container {
+
+      h1 {
+        font-size: 26px;
+        line-height: 32px;
+      }
+    }
+  }
+}

@@ -170,3 +170,55 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+
+  .fifth {
+    padding: 45px 0;
+
+    .title {
+
+      h3 {
+        font-size: 20px;
+      }
+    }
+
+    .content {
+
+      form {
+        width: 100%;
+
+        div {
+
+          &:before {
+            display: none;
+          }
+        }
+
+        button {
+          width: 100%;
+        }
+
+        .name {
+          margin-top: 75px;
+        }
+
+        .email {
+          margin-top: 75px;
+        }
+
+        .phone {
+          margin-top: 75px;
+        }
+
+        .project {
+          margin-top: 120px;
+
+          label {
+            top: -70px;
+          }
+        }
+      }
+    }
+  }
+}
